@@ -12,8 +12,6 @@
   - [4. Place an Order](#4-place-an-order)
   - [5. Logout](#5-logout)
 - [Running the Tests](#running-the-tests)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 This project contains automated test cases for the following functionalities on Amazon.in:
