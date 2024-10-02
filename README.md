@@ -10,7 +10,6 @@
   - [2. Sign In](#2-sign-in)
   - [3. Add to Cart](#3-add-to-cart)
   - [4. Place an Order](#4-place-an-order)
-  - [5. Logout](#5-logout)
 - [Running the Tests](#running-the-tests)
 
 ## Overview
@@ -19,7 +18,6 @@ This project contains automated test cases for the following functionalities on 
 - Sign In
 - Add to Cart
 - Place an Order
-- Logout
 
 These test cases are written in Java using Selenium WebDriver, allowing for efficient testing of web applications.
 
@@ -60,15 +58,17 @@ Before you begin, ensure you have the following installed:
   1. Navigate to the sign-up page.
   2. Fill in the required information (name, email, password, etc.).
   3. Submit the registration form.
-  4. Verify successful account creation.
 
 ### 2. Sign In
 - **Objective:** Test the user login process.
 - **Steps:**
-  1. Navigate to the login page.
-  2. Enter registered email and password.
-  3. Click the sign-in button.
-  4. Verify successful login.
+  1. Navigate to the Home page.
+  2. Click on Sign In
+  3. Enter registered email.
+  4. Click on continue
+  5. Enter password.
+  7. Click the sign-in button.
+  8. Verify successful login.
 
 ### 3. Add to Cart
 - **Objective:** Test adding a product to the cart.
@@ -76,23 +76,17 @@ Before you begin, ensure you have the following installed:
   1. Search for a product.
   2. Click on the product to view details.
   3. Click the "Add to Cart" button.
-  4. Verify the product is in the cart.
 
 ### 4. Place an Order
 - **Objective:** Test the order placement process.
 - **Steps:**
   1. Go to the cart.
   2. Click on the "Proceed to Checkout" button.
-  3. Fill in the necessary payment and shipping details.
+  3. Select the necessary payment and shipping details.
   4. Submit the order.
   5. Verify order confirmation.
 
-### 5. Logout
-- **Objective:** Test the user logout process.
-- **Steps:**
-  1. Click on the account settings.
-  2. Click on the logout option.
-  3. Verify successful logout.
+
 
 ## Running the Tests
 You can run the tests using your IDE or by executing the Maven command:
